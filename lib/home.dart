@@ -17,10 +17,13 @@ class Home extends State<MyHomePage> {
         home: Scaffold(
           appBar: AppBar(
             title: const Text("Jose Augusto"),
-            leading: const CircleAvatar(
-              child: Text(
-                "JA",
-                style: TextStyle(color: Colors.white),
+            leading: const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: CircleAvatar(
+                child: Text(
+                  "JA",
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
             ),
             actions: [
