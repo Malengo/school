@@ -29,13 +29,13 @@ class Home extends State<MyHomePage> {
             actions: [
               IconButton.filled(
                 onPressed: () {},
-                icon: Icon(Icons.more_vert_outlined),
+                icon: const Icon(Icons.more_vert_outlined),
               ),
             ],
           ),
           body: Center(
             child: Padding(
-              padding: EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(12.0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
